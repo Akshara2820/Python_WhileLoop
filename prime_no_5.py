@@ -3,7 +3,7 @@
 
 
 
-n=int(input("enter no."))
+n=int(input("enter no how much you want prime no--"))
 a=2
 c=1
 while 1>0:
