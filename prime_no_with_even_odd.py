@@ -1,4 +1,3 @@
-
 n=int(input("enter prime no--"))
 if n>1:
     i=2
@@ -6,11 +5,11 @@ if n>1:
         if n%i==0:
             print("not prime.")
             break
-        elif n%2!=0:
-            print("odd prime")
-            break
         i+=1
     else:
-        print("even prime no")
+        if n%2==0:
+            print("even prime no.")
+        else:
+            print("odd prime no.")
 else:
     print("composite number")
